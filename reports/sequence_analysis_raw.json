@@ -1,0 +1,4540 @@
+[
+  {
+    "name": "dummy",
+    "sources": [
+      "dummy"
+    ],
+    "chosen": "dummy",
+    "fps": 24.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 24.0,
+      "loop": true,
+      "frame_count": 61,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "idle1",
+    "sources": [
+      "idle1"
+    ],
+    "chosen": "idle1",
+    "fps": 15.0,
+    "loop": true,
+    "activity": "ACT_IDLE",
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 15.0,
+      "loop": true,
+      "frame_count": 61,
+      "blend_count": 1,
+      "activity": 1,
+      "activity_weight": 1,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_idle",
+    "sources": [
+      "crouch_idle"
+    ],
+    "chosen": "crouch_idle",
+    "fps": 10.0,
+    "loop": true,
+    "activity": "ACT_CROUCHIDLE",
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 10.0,
+      "loop": true,
+      "frame_count": 31,
+      "blend_count": 1,
+      "activity": 18,
+      "activity_weight": 1,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "walk",
+    "sources": [
+      "walk"
+    ],
+    "chosen": "walk",
+    "fps": 30.0,
+    "loop": true,
+    "activity": "ACT_WALK",
+    "events": [],
+    "blend": [],
+    "motion_qc": [
+      "LX"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 33,
+      "blend_count": 1,
+      "activity": 3,
+      "activity_weight": 1,
+      "events": [],
+      "motion_type": 64,
+      "linear_movement": [
+        64.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "run",
+    "sources": [
+      "run"
+    ],
+    "chosen": "run",
+    "fps": 60.0,
+    "loop": true,
+    "activity": "ACT_RUN",
+    "events": [],
+    "blend": [],
+    "motion_qc": [
+      "LX"
+    ],
+    "baseline": {
+      "fps": 60.0,
+      "loop": true,
+      "frame_count": 37,
+      "blend_count": 1,
+      "activity": 4,
+      "activity_weight": 1,
+      "events": [],
+      "motion_type": 64,
+      "linear_movement": [
+        150.00001525878906,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouchrun",
+    "sources": [
+      "crouchrun"
+    ],
+    "chosen": "crouchrun",
+    "fps": 30.0,
+    "loop": true,
+    "activity": "ACT_CROUCH",
+    "events": [],
+    "blend": [],
+    "motion_qc": [
+      "LX"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 31,
+      "blend_count": 1,
+      "activity": 17,
+      "activity_weight": 1,
+      "events": [],
+      "motion_type": 64,
+      "linear_movement": [
+        75.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "jump",
+    "sources": [
+      "jump"
+    ],
+    "chosen": "jump",
+    "fps": 36.0,
+    "loop": false,
+    "activity": "ACT_HOP",
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 36.0,
+      "loop": false,
+      "frame_count": 61,
+      "blend_count": 1,
+      "activity": 7,
+      "activity_weight": 1,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "longjump",
+    "sources": [
+      "longjump"
+    ],
+    "chosen": "longjump",
+    "fps": 36.0,
+    "loop": false,
+    "activity": "ACT_LEAP",
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 36.0,
+      "loop": false,
+      "frame_count": 61,
+      "blend_count": 1,
+      "activity": 8,
+      "activity_weight": 1,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "swim",
+    "sources": [
+      "swim"
+    ],
+    "chosen": "swim",
+    "fps": 30.0,
+    "loop": true,
+    "activity": "ACT_SWIM",
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 51,
+      "blend_count": 1,
+      "activity": 6,
+      "activity_weight": 1,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "treadwater",
+    "sources": [
+      "treadwater"
+    ],
+    "chosen": "treadwater",
+    "fps": 24.0,
+    "loop": true,
+    "activity": "ACT_HOVER",
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 24.0,
+      "loop": true,
+      "frame_count": 61,
+      "blend_count": 1,
+      "activity": 50,
+      "activity_weight": 1,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_aim_carbine",
+    "sources": [
+      "crouch_aim_carbine_blend1",
+      "crouch_aim_carbine_blend2",
+      "crouch_aim_carbine_blend3",
+      "crouch_aim_carbine_blend4",
+      "crouch_aim_carbine_blend5",
+      "crouch_aim_carbine_blend6",
+      "crouch_aim_carbine_blend7",
+      "crouch_aim_carbine_blend8",
+      "crouch_aim_carbine_blend9"
+    ],
+    "chosen": "crouch_aim_carbine_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_shoot_carbine",
+    "sources": [
+      "crouch_shoot_carbine_blend1",
+      "crouch_shoot_carbine_blend2",
+      "crouch_shoot_carbine_blend3",
+      "crouch_shoot_carbine_blend4",
+      "crouch_shoot_carbine_blend5",
+      "crouch_shoot_carbine_blend6",
+      "crouch_shoot_carbine_blend7",
+      "crouch_shoot_carbine_blend8",
+      "crouch_shoot_carbine_blend9"
+    ],
+    "chosen": "crouch_shoot_carbine_blend5",
+    "fps": 15.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "40"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 15.0,
+      "loop": false,
+      "frame_count": 5,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [
+        {
+          "frame": 0,
+          "id": 5001,
+          "type": 0,
+          "options": "40"
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_reload_carbine",
+    "sources": [
+      "crouch_reload_carbine"
+    ],
+    "chosen": "crouch_reload_carbine",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 61,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_aim_carbine",
+    "sources": [
+      "ref_aim_carbine_blend1",
+      "ref_aim_carbine_blend2",
+      "ref_aim_carbine_blend3",
+      "ref_aim_carbine_blend4",
+      "ref_aim_carbine_blend5",
+      "ref_aim_carbine_blend6",
+      "ref_aim_carbine_blend7",
+      "ref_aim_carbine_blend8",
+      "ref_aim_carbine_blend9"
+    ],
+    "chosen": "ref_aim_carbine_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_shoot_carbine",
+    "sources": [
+      "ref_shoot_carbine_blend1",
+      "ref_shoot_carbine_blend2",
+      "ref_shoot_carbine_blend3",
+      "ref_shoot_carbine_blend4",
+      "ref_shoot_carbine_blend5",
+      "ref_shoot_carbine_blend6",
+      "ref_shoot_carbine_blend7",
+      "ref_shoot_carbine_blend8",
+      "ref_shoot_carbine_blend9"
+    ],
+    "chosen": "ref_shoot_carbine_blend5",
+    "fps": 15.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "40"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 15.0,
+      "loop": false,
+      "frame_count": 5,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [
+        {
+          "frame": 0,
+          "id": 5001,
+          "type": 0,
+          "options": "40"
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_reload_carbine",
+    "sources": [
+      "ref_reload_carbine"
+    ],
+    "chosen": "ref_reload_carbine",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 61,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_aim_onehanded",
+    "sources": [
+      "crouch_aim_onehanded_blend1",
+      "crouch_aim_onehanded_blend2",
+      "crouch_aim_onehanded_blend3",
+      "crouch_aim_onehanded_blend4",
+      "crouch_aim_onehanded_blend5",
+      "crouch_aim_onehanded_blend6",
+      "crouch_aim_onehanded_blend7",
+      "crouch_aim_onehanded_blend8",
+      "crouch_aim_onehanded_blend9"
+    ],
+    "chosen": "crouch_aim_onehanded_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_shoot_onehanded",
+    "sources": [
+      "crouch_shoot_onehanded_blend1",
+      "crouch_shoot_onehanded_blend2",
+      "crouch_shoot_onehanded_blend3",
+      "crouch_shoot_onehanded_blend4",
+      "crouch_shoot_onehanded_blend5",
+      "crouch_shoot_onehanded_blend6",
+      "crouch_shoot_onehanded_blend7",
+      "crouch_shoot_onehanded_blend8",
+      "crouch_shoot_onehanded_blend9"
+    ],
+    "chosen": "crouch_shoot_onehanded_blend5",
+    "fps": 15.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "10"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 15.0,
+      "loop": false,
+      "frame_count": 7,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [
+        {
+          "frame": 0,
+          "id": 5001,
+          "type": 0,
+          "options": "10"
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_reload_onehanded",
+    "sources": [
+      "crouch_reload_onehanded"
+    ],
+    "chosen": "crouch_reload_onehanded",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 61,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_aim_onehanded",
+    "sources": [
+      "ref_aim_onehanded_blend1",
+      "ref_aim_onehanded_blend2",
+      "ref_aim_onehanded_blend3",
+      "ref_aim_onehanded_blend4",
+      "ref_aim_onehanded_blend5",
+      "ref_aim_onehanded_blend6",
+      "ref_aim_onehanded_blend7",
+      "ref_aim_onehanded_blend8",
+      "ref_aim_onehanded_blend9"
+    ],
+    "chosen": "ref_aim_onehanded_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_shoot_onehanded",
+    "sources": [
+      "ref_shoot_onehanded_blend1",
+      "ref_shoot_onehanded_blend2",
+      "ref_shoot_onehanded_blend3",
+      "ref_shoot_onehanded_blend4",
+      "ref_shoot_onehanded_blend5",
+      "ref_shoot_onehanded_blend6",
+      "ref_shoot_onehanded_blend7",
+      "ref_shoot_onehanded_blend8",
+      "ref_shoot_onehanded_blend9"
+    ],
+    "chosen": "ref_shoot_onehanded_blend5",
+    "fps": 15.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "10"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 15.0,
+      "loop": false,
+      "frame_count": 7,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [
+        {
+          "frame": 0,
+          "id": 5001,
+          "type": 0,
+          "options": "10"
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_reload_onehanded",
+    "sources": [
+      "ref_reload_onehanded"
+    ],
+    "chosen": "ref_reload_onehanded",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 61,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_aim_dualpistols_1",
+    "sources": [
+      "crouch_aim_dualpistols_1_blend1",
+      "crouch_aim_dualpistols_1_blend2",
+      "crouch_aim_dualpistols_1_blend3",
+      "crouch_aim_dualpistols_1_blend4",
+      "crouch_aim_dualpistols_1_blend5",
+      "crouch_aim_dualpistols_1_blend6",
+      "crouch_aim_dualpistols_1_blend7",
+      "crouch_aim_dualpistols_1_blend8",
+      "crouch_aim_dualpistols_1_blend9"
+    ],
+    "chosen": "crouch_aim_dualpistols_1_blend5",
+    "fps": 10.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_shoot_dualpistols_1",
+    "sources": [
+      "crouch_shoot_dualpistols_1_blend1",
+      "crouch_shoot_dualpistols_1_blend2",
+      "crouch_shoot_dualpistols_1_blend3",
+      "crouch_shoot_dualpistols_1_blend4",
+      "crouch_shoot_dualpistols_1_blend5",
+      "crouch_shoot_dualpistols_1_blend6",
+      "crouch_shoot_dualpistols_1_blend7",
+      "crouch_shoot_dualpistols_1_blend8",
+      "crouch_shoot_dualpistols_1_blend9"
+    ],
+    "chosen": "crouch_shoot_dualpistols_1_blend5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5011,
+        "frame": 0,
+        "options": "10"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_shoot2_dualpistols_1",
+    "sources": [
+      "crouch_shoot2_dualpistols_1_blend1",
+      "crouch_shoot2_dualpistols_1_blend2",
+      "crouch_shoot2_dualpistols_1_blend3",
+      "crouch_shoot2_dualpistols_1_blend4",
+      "crouch_shoot2_dualpistols_1_blend5",
+      "crouch_shoot2_dualpistols_1_blend6",
+      "crouch_shoot2_dualpistols_1_blend7",
+      "crouch_shoot2_dualpistols_1_blend8",
+      "crouch_shoot2_dualpistols_1_blend9"
+    ],
+    "chosen": "crouch_shoot2_dualpistols_1_blend5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "10"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_reload_dualpistols_1",
+    "sources": [
+      "crouch_reload_dualpistols_1"
+    ],
+    "chosen": "crouch_reload_dualpistols_1",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_aim_dualpistols_1",
+    "sources": [
+      "ref_aim_dualpistols_1_blend1",
+      "ref_aim_dualpistols_1_blend2",
+      "ref_aim_dualpistols_1_blend3",
+      "ref_aim_dualpistols_1_blend4",
+      "ref_aim_dualpistols_1_blend5",
+      "ref_aim_dualpistols_1_blend6",
+      "ref_aim_dualpistols_1_blend7",
+      "ref_aim_dualpistols_1_blend8",
+      "ref_aim_dualpistols_1_blend9"
+    ],
+    "chosen": "ref_aim_dualpistols_1_blend5",
+    "fps": 10.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_shoot_dualpistols_1",
+    "sources": [
+      "ref_shoot_dualpistols_1_blend1",
+      "ref_shoot_dualpistols_1_blend2",
+      "ref_shoot_dualpistols_1_blend3",
+      "ref_shoot_dualpistols_1_blend4",
+      "ref_shoot_dualpistols_1_blend5",
+      "ref_shoot_dualpistols_1_blend6",
+      "ref_shoot_dualpistols_1_blend7",
+      "ref_shoot_dualpistols_1_blend8",
+      "ref_shoot_dualpistols_1_blend9"
+    ],
+    "chosen": "ref_shoot_dualpistols_1_blend5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5011,
+        "frame": 0,
+        "options": "10"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_shoot2_dualpistols_1",
+    "sources": [
+      "ref_shoot2_dualpistols_1_blend1",
+      "ref_shoot2_dualpistols_1_blend2",
+      "ref_shoot2_dualpistols_1_blend3",
+      "ref_shoot2_dualpistols_1_blend4",
+      "ref_shoot2_dualpistols_1_blend5",
+      "ref_shoot2_dualpistols_1_blend6",
+      "ref_shoot2_dualpistols_1_blend7",
+      "ref_shoot2_dualpistols_1_blend8",
+      "ref_shoot2_dualpistols_1_blend9"
+    ],
+    "chosen": "ref_shoot2_dualpistols_1_blend5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "10"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_reload_dualpistols_1",
+    "sources": [
+      "ref_reload_dualpistols_1"
+    ],
+    "chosen": "ref_reload_dualpistols_1",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_aim_rifle",
+    "sources": [
+      "crouch_aim_rifle_blend1",
+      "crouch_aim_rifle_blend2",
+      "crouch_aim_rifle_blend3",
+      "crouch_aim_rifle_blend4",
+      "crouch_aim_rifle_blend5",
+      "crouch_aim_rifle_blend6",
+      "crouch_aim_rifle_blend7",
+      "crouch_aim_rifle_blend8",
+      "crouch_aim_rifle_blend9"
+    ],
+    "chosen": "crouch_aim_rifle_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_shoot_rifle",
+    "sources": [
+      "crouch_shoot_rifle_blend1",
+      "crouch_shoot_rifle_blend2",
+      "crouch_shoot_rifle_blend3",
+      "crouch_shoot_rifle_blend4",
+      "crouch_shoot_rifle_blend5",
+      "crouch_shoot_rifle_blend6",
+      "crouch_shoot_rifle_blend7",
+      "crouch_shoot_rifle_blend8",
+      "crouch_shoot_rifle_blend9"
+    ],
+    "chosen": "crouch_shoot_rifle_blend5",
+    "fps": 20.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "30"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 20.0,
+      "loop": false,
+      "frame_count": 6,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [
+        {
+          "frame": 0,
+          "id": 5001,
+          "type": 0,
+          "options": "30"
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_reload_rifle",
+    "sources": [
+      "crouch_reload_rifle"
+    ],
+    "chosen": "crouch_reload_rifle",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 91,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_aim_rifle",
+    "sources": [
+      "ref_aim_rifle_blend1",
+      "ref_aim_rifle_blend2",
+      "ref_aim_rifle_blend3",
+      "ref_aim_rifle_blend4",
+      "ref_aim_rifle_blend5",
+      "ref_aim_rifle_blend6",
+      "ref_aim_rifle_blend7",
+      "ref_aim_rifle_blend8",
+      "ref_aim_rifle_blend9"
+    ],
+    "chosen": "ref_aim_rifle_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_shoot_rifle",
+    "sources": [
+      "ref_shoot_rifle_blend1",
+      "ref_shoot_rifle_blend2",
+      "ref_shoot_rifle_blend3",
+      "ref_shoot_rifle_blend4",
+      "ref_shoot_rifle_blend5",
+      "ref_shoot_rifle_blend6",
+      "ref_shoot_rifle_blend7",
+      "ref_shoot_rifle_blend8",
+      "ref_shoot_rifle_blend9"
+    ],
+    "chosen": "ref_shoot_rifle_blend5",
+    "fps": 20.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "30"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 20.0,
+      "loop": false,
+      "frame_count": 6,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [
+        {
+          "frame": 0,
+          "id": 5001,
+          "type": 0,
+          "options": "30"
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_reload_rifle",
+    "sources": [
+      "ref_reload_rifle"
+    ],
+    "chosen": "ref_reload_rifle",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 91,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_aim_mp5",
+    "sources": [
+      "crouch_aim_mp5_blend1",
+      "crouch_aim_mp5_blend2",
+      "crouch_aim_mp5_blend3",
+      "crouch_aim_mp5_blend4",
+      "crouch_aim_mp5_blend5",
+      "crouch_aim_mp5_blend6",
+      "crouch_aim_mp5_blend7",
+      "crouch_aim_mp5_blend8",
+      "crouch_aim_mp5_blend9"
+    ],
+    "chosen": "crouch_aim_mp5_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_shoot_mp5",
+    "sources": [
+      "crouch_shoot_mp5_blend1",
+      "crouch_shoot_mp5_blend2",
+      "crouch_shoot_mp5_blend3",
+      "crouch_shoot_mp5_blend4",
+      "crouch_shoot_mp5_blend5",
+      "crouch_shoot_mp5_blend6",
+      "crouch_shoot_mp5_blend7",
+      "crouch_shoot_mp5_blend8",
+      "crouch_shoot_mp5_blend9"
+    ],
+    "chosen": "crouch_shoot_mp5_blend5",
+    "fps": 15.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "30"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 15.0,
+      "loop": false,
+      "frame_count": 5,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [
+        {
+          "frame": 0,
+          "id": 5001,
+          "type": 0,
+          "options": "30"
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_reload_mp5",
+    "sources": [
+      "crouch_reload_mp5"
+    ],
+    "chosen": "crouch_reload_mp5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 46,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_aim_mp5",
+    "sources": [
+      "ref_aim_mp5_blend1",
+      "ref_aim_mp5_blend2",
+      "ref_aim_mp5_blend3",
+      "ref_aim_mp5_blend4",
+      "ref_aim_mp5_blend5",
+      "ref_aim_mp5_blend6",
+      "ref_aim_mp5_blend7",
+      "ref_aim_mp5_blend8",
+      "ref_aim_mp5_blend9"
+    ],
+    "chosen": "ref_aim_mp5_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_shoot_mp5",
+    "sources": [
+      "ref_shoot_mp5_blend1",
+      "ref_shoot_mp5_blend2",
+      "ref_shoot_mp5_blend3",
+      "ref_shoot_mp5_blend4",
+      "ref_shoot_mp5_blend5",
+      "ref_shoot_mp5_blend6",
+      "ref_shoot_mp5_blend7",
+      "ref_shoot_mp5_blend8",
+      "ref_shoot_mp5_blend9"
+    ],
+    "chosen": "ref_shoot_mp5_blend5",
+    "fps": 15.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "30"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 15.0,
+      "loop": false,
+      "frame_count": 5,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [
+        {
+          "frame": 0,
+          "id": 5001,
+          "type": 0,
+          "options": "30"
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_reload_mp5",
+    "sources": [
+      "ref_reload_mp5"
+    ],
+    "chosen": "ref_reload_mp5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 46,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_aim_shotgun",
+    "sources": [
+      "crouch_aim_shotgun_blend1",
+      "crouch_aim_shotgun_blend2",
+      "crouch_aim_shotgun_blend3",
+      "crouch_aim_shotgun_blend4",
+      "crouch_aim_shotgun_blend5",
+      "crouch_aim_shotgun_blend6",
+      "crouch_aim_shotgun_blend7",
+      "crouch_aim_shotgun_blend8",
+      "crouch_aim_shotgun_blend9"
+    ],
+    "chosen": "crouch_aim_shotgun_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_shoot_shotgun",
+    "sources": [
+      "crouch_shoot_shotgun_blend1",
+      "crouch_shoot_shotgun_blend2",
+      "crouch_shoot_shotgun_blend3",
+      "crouch_shoot_shotgun_blend4",
+      "crouch_shoot_shotgun_blend5",
+      "crouch_shoot_shotgun_blend6",
+      "crouch_shoot_shotgun_blend7",
+      "crouch_shoot_shotgun_blend8",
+      "crouch_shoot_shotgun_blend9"
+    ],
+    "chosen": "crouch_shoot_shotgun_blend5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "50"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 31,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [
+        {
+          "frame": 0,
+          "id": 5001,
+          "type": 0,
+          "options": "50"
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_reload_shotgun",
+    "sources": [
+      "crouch_reload_shotgun"
+    ],
+    "chosen": "crouch_reload_shotgun",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 76,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_aim_shotgun",
+    "sources": [
+      "ref_aim_shotgun_blend1",
+      "ref_aim_shotgun_blend2",
+      "ref_aim_shotgun_blend3",
+      "ref_aim_shotgun_blend4",
+      "ref_aim_shotgun_blend5",
+      "ref_aim_shotgun_blend6",
+      "ref_aim_shotgun_blend7",
+      "ref_aim_shotgun_blend8",
+      "ref_aim_shotgun_blend9"
+    ],
+    "chosen": "ref_aim_shotgun_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_shoot_shotgun",
+    "sources": [
+      "ref_shoot_shotgun_blend1",
+      "ref_shoot_shotgun_blend2",
+      "ref_shoot_shotgun_blend3",
+      "ref_shoot_shotgun_blend4",
+      "ref_shoot_shotgun_blend5",
+      "ref_shoot_shotgun_blend6",
+      "ref_shoot_shotgun_blend7",
+      "ref_shoot_shotgun_blend8",
+      "ref_shoot_shotgun_blend9"
+    ],
+    "chosen": "ref_shoot_shotgun_blend5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "50"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 31,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [
+        {
+          "frame": 0,
+          "id": 5001,
+          "type": 0,
+          "options": "50"
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_reload_shotgun",
+    "sources": [
+      "ref_reload_shotgun"
+    ],
+    "chosen": "ref_reload_shotgun",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 76,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_aim_m249",
+    "sources": [
+      "crouch_aim_m249_blend1",
+      "crouch_aim_m249_blend2",
+      "crouch_aim_m249_blend3",
+      "crouch_aim_m249_blend4",
+      "crouch_aim_m249_blend5",
+      "crouch_aim_m249_blend6",
+      "crouch_aim_m249_blend7",
+      "crouch_aim_m249_blend8",
+      "crouch_aim_m249_blend9"
+    ],
+    "chosen": "crouch_aim_m249_blend5",
+    "fps": 10.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 10.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_shoot_m249",
+    "sources": [
+      "crouch_shoot_m249_blend1",
+      "crouch_shoot_m249_blend2",
+      "crouch_shoot_m249_blend3",
+      "crouch_shoot_m249_blend4",
+      "crouch_shoot_m249_blend5",
+      "crouch_shoot_m249_blend6",
+      "crouch_shoot_m249_blend7",
+      "crouch_shoot_m249_blend8",
+      "crouch_shoot_m249_blend9"
+    ],
+    "chosen": "crouch_shoot_m249_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "50"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 6,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [
+        {
+          "frame": 0,
+          "id": 5001,
+          "type": 0,
+          "options": "50"
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_reload_m249",
+    "sources": [
+      "crouch_reload_m249"
+    ],
+    "chosen": "crouch_reload_m249",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 71,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_aim_m249",
+    "sources": [
+      "ref_aim_m249_blend1",
+      "ref_aim_m249_blend2",
+      "ref_aim_m249_blend3",
+      "ref_aim_m249_blend4",
+      "ref_aim_m249_blend5",
+      "ref_aim_m249_blend6",
+      "ref_aim_m249_blend7",
+      "ref_aim_m249_blend8",
+      "ref_aim_m249_blend9"
+    ],
+    "chosen": "ref_aim_m249_blend5",
+    "fps": 10.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 10.0,
+      "loop": true,
+      "frame_count": 11,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_shoot_m249",
+    "sources": [
+      "ref_shoot_m249_blend1",
+      "ref_shoot_m249_blend2",
+      "ref_shoot_m249_blend3",
+      "ref_shoot_m249_blend4",
+      "ref_shoot_m249_blend5",
+      "ref_shoot_m249_blend6",
+      "ref_shoot_m249_blend7",
+      "ref_shoot_m249_blend8",
+      "ref_shoot_m249_blend9"
+    ],
+    "chosen": "ref_shoot_m249_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "50"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 6,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [
+        {
+          "frame": 0,
+          "id": 5001,
+          "type": 0,
+          "options": "50"
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_reload_m249",
+    "sources": [
+      "ref_reload_m249"
+    ],
+    "chosen": "ref_reload_m249",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 71,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "I_am_a_stupid_placeholder",
+    "sources": [
+      "I_am_a_stupid_placeholder"
+    ],
+    "chosen": "I_am_a_stupid_placeholder",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "so_am_I",
+    "sources": [
+      "so_am_I"
+    ],
+    "chosen": "so_am_I",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 31,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_aim_grenade",
+    "sources": [
+      "ref_aim_grenade_blend1",
+      "ref_aim_grenade_blend2",
+      "ref_aim_grenade_blend3",
+      "ref_aim_grenade_blend4",
+      "ref_aim_grenade_blend5",
+      "ref_aim_grenade_blend6",
+      "ref_aim_grenade_blend7",
+      "ref_aim_grenade_blend8",
+      "ref_aim_grenade_blend9"
+    ],
+    "chosen": "ref_aim_grenade_blend5",
+    "fps": 20.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 20.0,
+      "loop": true,
+      "frame_count": 31,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_shoot_grenade",
+    "sources": [
+      "ref_shoot_grenade_blend1",
+      "ref_shoot_grenade_blend2",
+      "ref_shoot_grenade_blend3",
+      "ref_shoot_grenade_blend4",
+      "ref_shoot_grenade_blend5",
+      "ref_shoot_grenade_blend6",
+      "ref_shoot_grenade_blend7",
+      "ref_shoot_grenade_blend8",
+      "ref_shoot_grenade_blend9"
+    ],
+    "chosen": "ref_shoot_grenade_blend5",
+    "fps": 45.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 45.0,
+      "loop": false,
+      "frame_count": 31,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_aim_grenade",
+    "sources": [
+      "crouch_aim_grenade_blend1",
+      "crouch_aim_grenade_blend2",
+      "crouch_aim_grenade_blend3",
+      "crouch_aim_grenade_blend4",
+      "crouch_aim_grenade_blend5",
+      "crouch_aim_grenade_blend6",
+      "crouch_aim_grenade_blend7",
+      "crouch_aim_grenade_blend8",
+      "crouch_aim_grenade_blend9"
+    ],
+    "chosen": "crouch_aim_grenade_blend5",
+    "fps": 20.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 20.0,
+      "loop": true,
+      "frame_count": 31,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_shoot_grenade",
+    "sources": [
+      "crouch_shoot_grenade_blend1",
+      "crouch_shoot_grenade_blend2",
+      "crouch_shoot_grenade_blend3",
+      "crouch_shoot_grenade_blend4",
+      "crouch_shoot_grenade_blend5",
+      "crouch_shoot_grenade_blend6",
+      "crouch_shoot_grenade_blend7",
+      "crouch_shoot_grenade_blend8",
+      "crouch_shoot_grenade_blend9"
+    ],
+    "chosen": "crouch_shoot_grenade_blend5",
+    "fps": 45.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 45.0,
+      "loop": false,
+      "frame_count": 31,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_aim_c4",
+    "sources": [
+      "crouch_aim_c4_blend1",
+      "crouch_aim_c4_blend2",
+      "crouch_aim_c4_blend3",
+      "crouch_aim_c4_blend4",
+      "crouch_aim_c4_blend5",
+      "crouch_aim_c4_blend6",
+      "crouch_aim_c4_blend7",
+      "crouch_aim_c4_blend8",
+      "crouch_aim_c4_blend9"
+    ],
+    "chosen": "crouch_aim_c4_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_shoot_c4",
+    "sources": [
+      "crouch_shoot_c4"
+    ],
+    "chosen": "crouch_shoot_c4",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 121,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_aim_c4",
+    "sources": [
+      "ref_aim_c4_blend1",
+      "ref_aim_c4_blend2",
+      "ref_aim_c4_blend3",
+      "ref_aim_c4_blend4",
+      "ref_aim_c4_blend5",
+      "ref_aim_c4_blend6",
+      "ref_aim_c4_blend7",
+      "ref_aim_c4_blend8",
+      "ref_aim_c4_blend9"
+    ],
+    "chosen": "ref_aim_c4_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_shoot_c4",
+    "sources": [
+      "ref_shoot_c4"
+    ],
+    "chosen": "ref_shoot_c4",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 151,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_reload_c4",
+    "sources": [
+      "ref_reload_c4"
+    ],
+    "chosen": "ref_reload_c4",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 31,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_aim_dualpistols_2",
+    "sources": [
+      "crouch_aim_dualpistols_2_blend1",
+      "crouch_aim_dualpistols_2_blend2",
+      "crouch_aim_dualpistols_2_blend3",
+      "crouch_aim_dualpistols_2_blend4",
+      "crouch_aim_dualpistols_2_blend5",
+      "crouch_aim_dualpistols_2_blend6",
+      "crouch_aim_dualpistols_2_blend7",
+      "crouch_aim_dualpistols_2_blend8",
+      "crouch_aim_dualpistols_2_blend9"
+    ],
+    "chosen": "crouch_aim_dualpistols_2_blend5",
+    "fps": 10.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_shoot_dualpistols_2",
+    "sources": [
+      "crouch_shoot_dualpistols_2_blend1",
+      "crouch_shoot_dualpistols_2_blend2",
+      "crouch_shoot_dualpistols_2_blend3",
+      "crouch_shoot_dualpistols_2_blend4",
+      "crouch_shoot_dualpistols_2_blend5",
+      "crouch_shoot_dualpistols_2_blend6",
+      "crouch_shoot_dualpistols_2_blend7",
+      "crouch_shoot_dualpistols_2_blend8",
+      "crouch_shoot_dualpistols_2_blend9"
+    ],
+    "chosen": "crouch_shoot_dualpistols_2_blend5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5011,
+        "frame": 0,
+        "options": "10"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_shoot2_dualpistols_2",
+    "sources": [
+      "crouch_shoot2_dualpistols_2_blend1",
+      "crouch_shoot2_dualpistols_2_blend2",
+      "crouch_shoot2_dualpistols_2_blend3",
+      "crouch_shoot2_dualpistols_2_blend4",
+      "crouch_shoot2_dualpistols_2_blend5",
+      "crouch_shoot2_dualpistols_2_blend6",
+      "crouch_shoot2_dualpistols_2_blend7",
+      "crouch_shoot2_dualpistols_2_blend8",
+      "crouch_shoot2_dualpistols_2_blend9"
+    ],
+    "chosen": "crouch_shoot2_dualpistols_2_blend5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "10"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_reload_dualpistols_2",
+    "sources": [
+      "crouch_reload_dualpistols_2"
+    ],
+    "chosen": "crouch_reload_dualpistols_2",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_aim_dualpistols_2",
+    "sources": [
+      "ref_aim_dualpistols_2_blend1",
+      "ref_aim_dualpistols_2_blend2",
+      "ref_aim_dualpistols_2_blend3",
+      "ref_aim_dualpistols_2_blend4",
+      "ref_aim_dualpistols_2_blend5",
+      "ref_aim_dualpistols_2_blend6",
+      "ref_aim_dualpistols_2_blend7",
+      "ref_aim_dualpistols_2_blend8",
+      "ref_aim_dualpistols_2_blend9"
+    ],
+    "chosen": "ref_aim_dualpistols_2_blend5",
+    "fps": 10.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_shoot_dualpistols_2",
+    "sources": [
+      "ref_shoot_dualpistols_2_blend1",
+      "ref_shoot_dualpistols_2_blend2",
+      "ref_shoot_dualpistols_2_blend3",
+      "ref_shoot_dualpistols_2_blend4",
+      "ref_shoot_dualpistols_2_blend5",
+      "ref_shoot_dualpistols_2_blend6",
+      "ref_shoot_dualpistols_2_blend7",
+      "ref_shoot_dualpistols_2_blend8",
+      "ref_shoot_dualpistols_2_blend9"
+    ],
+    "chosen": "ref_shoot_dualpistols_2_blend5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5011,
+        "frame": 0,
+        "options": "10"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_shoot2_dualpistols_2",
+    "sources": [
+      "ref_shoot2_dualpistols_2_blend1",
+      "ref_shoot2_dualpistols_2_blend2",
+      "ref_shoot2_dualpistols_2_blend3",
+      "ref_shoot2_dualpistols_2_blend4",
+      "ref_shoot2_dualpistols_2_blend5",
+      "ref_shoot2_dualpistols_2_blend6",
+      "ref_shoot2_dualpistols_2_blend7",
+      "ref_shoot2_dualpistols_2_blend8",
+      "ref_shoot2_dualpistols_2_blend9"
+    ],
+    "chosen": "ref_shoot2_dualpistols_2_blend5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "10"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_reload_dualpistols_2",
+    "sources": [
+      "ref_reload_dualpistols_2"
+    ],
+    "chosen": "ref_reload_dualpistols_2",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_aim_knife",
+    "sources": [
+      "crouch_aim_knife_blend1",
+      "crouch_aim_knife_blend2",
+      "crouch_aim_knife_blend3",
+      "crouch_aim_knife_blend4",
+      "crouch_aim_knife_blend5",
+      "crouch_aim_knife_blend6",
+      "crouch_aim_knife_blend7",
+      "crouch_aim_knife_blend8",
+      "crouch_aim_knife_blend9"
+    ],
+    "chosen": "crouch_aim_knife_blend5",
+    "fps": 12.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 12.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_shoot_knife",
+    "sources": [
+      "crouch_shoot_knife_blend1",
+      "crouch_shoot_knife_blend2",
+      "crouch_shoot_knife_blend3",
+      "crouch_shoot_knife_blend4",
+      "crouch_shoot_knife_blend5",
+      "crouch_shoot_knife_blend6",
+      "crouch_shoot_knife_blend7",
+      "crouch_shoot_knife_blend8",
+      "crouch_shoot_knife_blend9"
+    ],
+    "chosen": "crouch_shoot_knife_blend5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 41,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_aim_knife",
+    "sources": [
+      "ref_aim_knife_blend1",
+      "ref_aim_knife_blend2",
+      "ref_aim_knife_blend3",
+      "ref_aim_knife_blend4",
+      "ref_aim_knife_blend5",
+      "ref_aim_knife_blend6",
+      "ref_aim_knife_blend7",
+      "ref_aim_knife_blend8",
+      "ref_aim_knife_blend9"
+    ],
+    "chosen": "ref_aim_knife_blend5",
+    "fps": 12.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 12.0,
+      "loop": true,
+      "frame_count": 31,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_shoot_knife",
+    "sources": [
+      "ref_shoot_knife_blend1",
+      "ref_shoot_knife_blend2",
+      "ref_shoot_knife_blend3",
+      "ref_shoot_knife_blend4",
+      "ref_shoot_knife_blend5",
+      "ref_shoot_knife_blend6",
+      "ref_shoot_knife_blend7",
+      "ref_shoot_knife_blend8",
+      "ref_shoot_knife_blend9"
+    ],
+    "chosen": "ref_shoot_knife_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 41,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_aim_ak47",
+    "sources": [
+      "crouch_aim_ak47_blend1",
+      "crouch_aim_ak47_blend2",
+      "crouch_aim_ak47_blend3",
+      "crouch_aim_ak47_blend4",
+      "crouch_aim_ak47_blend5",
+      "crouch_aim_ak47_blend6",
+      "crouch_aim_ak47_blend7",
+      "crouch_aim_ak47_blend8",
+      "crouch_aim_ak47_blend9"
+    ],
+    "chosen": "crouch_aim_ak47_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_shoot_ak47",
+    "sources": [
+      "crouch_shoot_ak47_blend1",
+      "crouch_shoot_ak47_blend2",
+      "crouch_shoot_ak47_blend3",
+      "crouch_shoot_ak47_blend4",
+      "crouch_shoot_ak47_blend5",
+      "crouch_shoot_ak47_blend6",
+      "crouch_shoot_ak47_blend7",
+      "crouch_shoot_ak47_blend8",
+      "crouch_shoot_ak47_blend9"
+    ],
+    "chosen": "crouch_shoot_ak47_blend5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "40"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 5,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [
+        {
+          "frame": 0,
+          "id": 5001,
+          "type": 0,
+          "options": "40"
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_reload_ak47",
+    "sources": [
+      "crouch_reload_ak47"
+    ],
+    "chosen": "crouch_reload_ak47",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 91,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_aim_ak47",
+    "sources": [
+      "ref_aim_ak47_blend1",
+      "ref_aim_ak47_blend2",
+      "ref_aim_ak47_blend3",
+      "ref_aim_ak47_blend4",
+      "ref_aim_ak47_blend5",
+      "ref_aim_ak47_blend6",
+      "ref_aim_ak47_blend7",
+      "ref_aim_ak47_blend8",
+      "ref_aim_ak47_blend9"
+    ],
+    "chosen": "ref_aim_ak47_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_shoot_ak47",
+    "sources": [
+      "ref_shoot_ak47_blend1",
+      "ref_shoot_ak47_blend2",
+      "ref_shoot_ak47_blend3",
+      "ref_shoot_ak47_blend4",
+      "ref_shoot_ak47_blend5",
+      "ref_shoot_ak47_blend6",
+      "ref_shoot_ak47_blend7",
+      "ref_shoot_ak47_blend8",
+      "ref_shoot_ak47_blend9"
+    ],
+    "chosen": "ref_shoot_ak47_blend5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "40"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 6,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [
+        {
+          "frame": 0,
+          "id": 5001,
+          "type": 0,
+          "options": "40"
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_reload_ak47",
+    "sources": [
+      "ref_reload_ak47"
+    ],
+    "chosen": "ref_reload_ak47",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 91,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_aim_shieldgren",
+    "sources": [
+      "crouch_aim_shieldgren_blend1",
+      "crouch_aim_shieldgren_blend2",
+      "crouch_aim_shieldgren_blend3",
+      "crouch_aim_shieldgren_blend4",
+      "crouch_aim_shieldgren_blend5",
+      "crouch_aim_shieldgren_blend6",
+      "crouch_aim_shieldgren_blend7",
+      "crouch_aim_shieldgren_blend8",
+      "crouch_aim_shieldgren_blend9"
+    ],
+    "chosen": "crouch_aim_shieldgren_blend5",
+    "fps": 20.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 20.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_shoot_shieldgren",
+    "sources": [
+      "crouch_shoot_shieldgren_blend1",
+      "crouch_shoot_shieldgren_blend2",
+      "crouch_shoot_shieldgren_blend3",
+      "crouch_shoot_shieldgren_blend4",
+      "crouch_shoot_shieldgren_blend5",
+      "crouch_shoot_shieldgren_blend6",
+      "crouch_shoot_shieldgren_blend7",
+      "crouch_shoot_shieldgren_blend8",
+      "crouch_shoot_shieldgren_blend9"
+    ],
+    "chosen": "crouch_shoot_shieldgren_blend5",
+    "fps": 45.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 45.0,
+      "loop": false,
+      "frame_count": 31,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_aim_shieldgren",
+    "sources": [
+      "ref_aim_shieldgren_blend1",
+      "ref_aim_shieldgren_blend2",
+      "ref_aim_shieldgren_blend3",
+      "ref_aim_shieldgren_blend4",
+      "ref_aim_shieldgren_blend5",
+      "ref_aim_shieldgren_blend6",
+      "ref_aim_shieldgren_blend7",
+      "ref_aim_shieldgren_blend8",
+      "ref_aim_shieldgren_blend9"
+    ],
+    "chosen": "ref_aim_shieldgren_blend5",
+    "fps": 20.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 20.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_shoot_shieldgren",
+    "sources": [
+      "ref_shoot_shieldgren_blend1",
+      "ref_shoot_shieldgren_blend2",
+      "ref_shoot_shieldgren_blend3",
+      "ref_shoot_shieldgren_blend4",
+      "ref_shoot_shieldgren_blend5",
+      "ref_shoot_shieldgren_blend6",
+      "ref_shoot_shieldgren_blend7",
+      "ref_shoot_shieldgren_blend8",
+      "ref_shoot_shieldgren_blend9"
+    ],
+    "chosen": "ref_shoot_shieldgren_blend5",
+    "fps": 45.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 45.0,
+      "loop": false,
+      "frame_count": 31,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_aim_shieldknife",
+    "sources": [
+      "crouch_aim_shieldknife_blend1",
+      "crouch_aim_shieldknife_blend2",
+      "crouch_aim_shieldknife_blend3",
+      "crouch_aim_shieldknife_blend4",
+      "crouch_aim_shieldknife_blend5",
+      "crouch_aim_shieldknife_blend6",
+      "crouch_aim_shieldknife_blend7",
+      "crouch_aim_shieldknife_blend8",
+      "crouch_aim_shieldknife_blend9"
+    ],
+    "chosen": "crouch_aim_shieldknife_blend5",
+    "fps": 12.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 12.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_shoot_shieldknife",
+    "sources": [
+      "crouch_shoot_shieldknife_blend1",
+      "crouch_shoot_shieldknife_blend2",
+      "crouch_shoot_shieldknife_blend3",
+      "crouch_shoot_shieldknife_blend4",
+      "crouch_shoot_shieldknife_blend5",
+      "crouch_shoot_shieldknife_blend6",
+      "crouch_shoot_shieldknife_blend7",
+      "crouch_shoot_shieldknife_blend8",
+      "crouch_shoot_shieldknife_blend9"
+    ],
+    "chosen": "crouch_shoot_shieldknife_blend5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 41,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_aim_shieldknife",
+    "sources": [
+      "ref_aim_shieldknife_blend1",
+      "ref_aim_shieldknife_blend2",
+      "ref_aim_shieldknife_blend3",
+      "ref_aim_shieldknife_blend4",
+      "ref_aim_shieldknife_blend5",
+      "ref_aim_shieldknife_blend6",
+      "ref_aim_shieldknife_blend7",
+      "ref_aim_shieldknife_blend8",
+      "ref_aim_shieldknife_blend9"
+    ],
+    "chosen": "ref_aim_shieldknife_blend5",
+    "fps": 12.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 12.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_shoot_shieldknife",
+    "sources": [
+      "ref_shoot_shieldknife_blend1",
+      "ref_shoot_shieldknife_blend2",
+      "ref_shoot_shieldknife_blend3",
+      "ref_shoot_shieldknife_blend4",
+      "ref_shoot_shieldknife_blend5",
+      "ref_shoot_shieldknife_blend6",
+      "ref_shoot_shieldknife_blend7",
+      "ref_shoot_shieldknife_blend8",
+      "ref_shoot_shieldknife_blend9"
+    ],
+    "chosen": "ref_shoot_shieldknife_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 41,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_aim_shieldgun",
+    "sources": [
+      "crouch_aim_shieldgun_blend1",
+      "crouch_aim_shieldgun_blend2",
+      "crouch_aim_shieldgun_blend3",
+      "crouch_aim_shieldgun_blend4",
+      "crouch_aim_shieldgun_blend5",
+      "crouch_aim_shieldgun_blend6",
+      "crouch_aim_shieldgun_blend7",
+      "crouch_aim_shieldgun_blend8",
+      "crouch_aim_shieldgun_blend9"
+    ],
+    "chosen": "crouch_aim_shieldgun_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_shoot_shieldgun",
+    "sources": [
+      "crouch_shoot_shieldgun_blend1",
+      "crouch_shoot_shieldgun_blend2",
+      "crouch_shoot_shieldgun_blend3",
+      "crouch_shoot_shieldgun_blend4",
+      "crouch_shoot_shieldgun_blend5",
+      "crouch_shoot_shieldgun_blend6",
+      "crouch_shoot_shieldgun_blend7",
+      "crouch_shoot_shieldgun_blend8",
+      "crouch_shoot_shieldgun_blend9"
+    ],
+    "chosen": "crouch_shoot_shieldgun_blend5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "10"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 16,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [
+        {
+          "frame": 0,
+          "id": 5001,
+          "type": 0,
+          "options": "10"
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_reload_shieldgun",
+    "sources": [
+      "crouch_reload_shieldgun"
+    ],
+    "chosen": "crouch_reload_shieldgun",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 61,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_aim_shieldgun",
+    "sources": [
+      "ref_aim_shieldgun_blend1",
+      "ref_aim_shieldgun_blend2",
+      "ref_aim_shieldgun_blend3",
+      "ref_aim_shieldgun_blend4",
+      "ref_aim_shieldgun_blend5",
+      "ref_aim_shieldgun_blend6",
+      "ref_aim_shieldgun_blend7",
+      "ref_aim_shieldgun_blend8",
+      "ref_aim_shieldgun_blend9"
+    ],
+    "chosen": "ref_aim_shieldgun_blend5",
+    "fps": 30.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_shoot_shieldgun",
+    "sources": [
+      "ref_shoot_shieldgun_blend1",
+      "ref_shoot_shieldgun_blend2",
+      "ref_shoot_shieldgun_blend3",
+      "ref_shoot_shieldgun_blend4",
+      "ref_shoot_shieldgun_blend5",
+      "ref_shoot_shieldgun_blend6",
+      "ref_shoot_shieldgun_blend7",
+      "ref_shoot_shieldgun_blend8",
+      "ref_shoot_shieldgun_blend9"
+    ],
+    "chosen": "ref_shoot_shieldgun_blend5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 5001,
+        "frame": 0,
+        "options": "10"
+      }
+    ],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 16,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [
+        {
+          "frame": 0,
+          "id": 5001,
+          "type": 0,
+          "options": "10"
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_reload_shieldgun",
+    "sources": [
+      "ref_reload_shieldgun"
+    ],
+    "chosen": "ref_reload_shieldgun",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 61,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_aim_shielded",
+    "sources": [
+      "crouch_aim_shielded_blend1",
+      "crouch_aim_shielded_blend2",
+      "crouch_aim_shielded_blend3",
+      "crouch_aim_shielded_blend4",
+      "crouch_aim_shielded_blend5",
+      "crouch_aim_shielded_blend6",
+      "crouch_aim_shielded_blend7",
+      "crouch_aim_shielded_blend8",
+      "crouch_aim_shielded_blend9"
+    ],
+    "chosen": "crouch_aim_shielded_blend5",
+    "fps": 20.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 20.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "ref_aim_shielded",
+    "sources": [
+      "ref_aim_shielded_blend1",
+      "ref_aim_shielded_blend2",
+      "ref_aim_shielded_blend3",
+      "ref_aim_shielded_blend4",
+      "ref_aim_shielded_blend5",
+      "ref_aim_shielded_blend6",
+      "ref_aim_shielded_blend7",
+      "ref_aim_shielded_blend8",
+      "ref_aim_shielded_blend9"
+    ],
+    "chosen": "ref_aim_shielded_blend5",
+    "fps": 20.0,
+    "loop": true,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 20.0,
+      "loop": true,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "gut_flinch",
+    "sources": [
+      "gut_flinch_blend1",
+      "gut_flinch_blend2",
+      "gut_flinch_blend3",
+      "gut_flinch_blend4",
+      "gut_flinch_blend5",
+      "gut_flinch_blend6",
+      "gut_flinch_blend7",
+      "gut_flinch_blend8",
+      "gut_flinch_blend9"
+    ],
+    "chosen": "gut_flinch_blend5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "head_flinch",
+    "sources": [
+      "head_flinch_blend1",
+      "head_flinch_blend2",
+      "head_flinch_blend3",
+      "head_flinch_blend4",
+      "head_flinch_blend5",
+      "head_flinch_blend6",
+      "head_flinch_blend7",
+      "head_flinch_blend8",
+      "head_flinch_blend9"
+    ],
+    "chosen": "head_flinch_blend5",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [],
+    "blend": [
+      [
+        "XR",
+        "-90",
+        "90"
+      ]
+    ],
+    "motion_qc": [
+      "XR"
+    ],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 2,
+      "blend_count": 9,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "death1",
+    "sources": [
+      "death1"
+    ],
+    "chosen": "death1",
+    "fps": 30.0,
+    "loop": false,
+    "activity": "ACT_DIE_CHESTSHOT",
+    "events": [
+      {
+        "id": 2001,
+        "frame": 1,
+        "options": ""
+      }
+    ],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 36,
+      "blend_count": 1,
+      "activity": 67,
+      "activity_weight": 1,
+      "events": [
+        {
+          "frame": 1,
+          "id": 2001,
+          "type": 0,
+          "options": ""
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "death2",
+    "sources": [
+      "death2"
+    ],
+    "chosen": "death2",
+    "fps": 30.0,
+    "loop": false,
+    "activity": "ACT_DIESIMPLE",
+    "events": [
+      {
+        "id": 2001,
+        "frame": 1,
+        "options": ""
+      }
+    ],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 41,
+      "blend_count": 1,
+      "activity": 36,
+      "activity_weight": 2,
+      "events": [
+        {
+          "frame": 1,
+          "id": 2001,
+          "type": 0,
+          "options": ""
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "death3",
+    "sources": [
+      "death3"
+    ],
+    "chosen": "death3",
+    "fps": 30.0,
+    "loop": false,
+    "activity": "ACT_DIE_BACKSHOT",
+    "events": [
+      {
+        "id": 2001,
+        "frame": 1,
+        "options": ""
+      }
+    ],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 106,
+      "blend_count": 1,
+      "activity": 69,
+      "activity_weight": 1,
+      "events": [
+        {
+          "frame": 1,
+          "id": 2001,
+          "type": 0,
+          "options": ""
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "head",
+    "sources": [
+      "head"
+    ],
+    "chosen": "head",
+    "fps": 30.0,
+    "loop": false,
+    "activity": "ACT_DIE_HEADSHOT",
+    "events": [
+      {
+        "id": 2001,
+        "frame": 1,
+        "options": ""
+      }
+    ],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 56,
+      "blend_count": 1,
+      "activity": 66,
+      "activity_weight": 1,
+      "events": [
+        {
+          "frame": 1,
+          "id": 2001,
+          "type": 0,
+          "options": ""
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "gutshot",
+    "sources": [
+      "gutshot"
+    ],
+    "chosen": "gutshot",
+    "fps": 30.0,
+    "loop": false,
+    "activity": "ACT_DIE_GUTSHOT",
+    "events": [
+      {
+        "id": 2001,
+        "frame": 1,
+        "options": ""
+      }
+    ],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 54,
+      "blend_count": 1,
+      "activity": 68,
+      "activity_weight": 1,
+      "events": [
+        {
+          "frame": 1,
+          "id": 2001,
+          "type": 0,
+          "options": ""
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "left",
+    "sources": [
+      "left"
+    ],
+    "chosen": "left",
+    "fps": 30.0,
+    "loop": false,
+    "activity": "ACT_DIESIMPLE",
+    "events": [
+      {
+        "id": 2001,
+        "frame": 1,
+        "options": ""
+      }
+    ],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 66,
+      "blend_count": 1,
+      "activity": 36,
+      "activity_weight": 1,
+      "events": [
+        {
+          "frame": 1,
+          "id": 2001,
+          "type": 0,
+          "options": ""
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "back",
+    "sources": [
+      "back"
+    ],
+    "chosen": "back",
+    "fps": 30.0,
+    "loop": false,
+    "activity": "ACT_DIEBACKWARD",
+    "events": [
+      {
+        "id": 2001,
+        "frame": 1,
+        "options": ""
+      }
+    ],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 56,
+      "blend_count": 1,
+      "activity": 37,
+      "activity_weight": 1,
+      "events": [
+        {
+          "frame": 1,
+          "id": 2001,
+          "type": 0,
+          "options": ""
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "right",
+    "sources": [
+      "right"
+    ],
+    "chosen": "right",
+    "fps": 30.0,
+    "loop": false,
+    "activity": "ACT_DIESIMPLE",
+    "events": [
+      {
+        "id": 2001,
+        "frame": 1,
+        "options": ""
+      }
+    ],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 66,
+      "blend_count": 1,
+      "activity": 36,
+      "activity_weight": 1,
+      "events": [
+        {
+          "frame": 1,
+          "id": 2001,
+          "type": 0,
+          "options": ""
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "forward",
+    "sources": [
+      "forward"
+    ],
+    "chosen": "forward",
+    "fps": 30.0,
+    "loop": false,
+    "activity": "ACT_DIEFORWARD",
+    "events": [
+      {
+        "id": 2001,
+        "frame": 1,
+        "options": ""
+      }
+    ],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 37,
+      "blend_count": 1,
+      "activity": 38,
+      "activity_weight": 1,
+      "events": [
+        {
+          "frame": 1,
+          "id": 2001,
+          "type": 0,
+          "options": ""
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  },
+  {
+    "name": "crouch_die",
+    "sources": [
+      "crouch_die"
+    ],
+    "chosen": "crouch_die",
+    "fps": 30.0,
+    "loop": false,
+    "activity": null,
+    "events": [
+      {
+        "id": 2001,
+        "frame": 1,
+        "options": ""
+      }
+    ],
+    "blend": [],
+    "motion_qc": [],
+    "baseline": {
+      "fps": 30.0,
+      "loop": false,
+      "frame_count": 31,
+      "blend_count": 1,
+      "activity": 0,
+      "activity_weight": 0,
+      "events": [
+        {
+          "frame": 1,
+          "id": 2001,
+          "type": 0,
+          "options": ""
+        }
+      ],
+      "motion_type": 0,
+      "linear_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smd_exists": true,
+    "smd_error": "AttributeError(\"'RuntimeAPI' object has no attribute 'read_smd'\")"
+  }
+]

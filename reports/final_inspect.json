@@ -1,0 +1,2665 @@
+{
+  "baseline": {
+    "top_keys": [
+      "attachments",
+      "bodyparts",
+      "bones",
+      "controllers",
+      "header",
+      "hitboxes",
+      "magic",
+      "path",
+      "sequences",
+      "size",
+      "skin_families",
+      "textures",
+      "version"
+    ],
+    "bones": [
+      [
+        "Bip01",
+        -1
+      ],
+      [
+        "Bip01 Pelvis",
+        0
+      ],
+      [
+        "Bip01 Spine",
+        1
+      ],
+      [
+        "Bip01 Spine1",
+        2
+      ],
+      [
+        "Bip01 Spine2",
+        3
+      ],
+      [
+        "Bip01 Spine3",
+        4
+      ],
+      [
+        "Bip01 Neck",
+        5
+      ],
+      [
+        "Bip01 Head",
+        6
+      ],
+      [
+        "Bone01",
+        7
+      ],
+      [
+        "Bip01 L Clavicle",
+        6
+      ],
+      [
+        "Bip01 L UpperArm",
+        9
+      ],
+      [
+        "Bip01 L Forearm",
+        10
+      ],
+      [
+        "Bip01 L Hand",
+        11
+      ],
+      [
+        "Bip01 L Finger0",
+        12
+      ],
+      [
+        "Bip01 L Finger01",
+        13
+      ],
+      [
+        "Bip01 L Finger1",
+        12
+      ],
+      [
+        "Bip01 L Finger11",
+        15
+      ],
+      [
+        "-- L knuckle",
+        15
+      ],
+      [
+        "-- L Forearm twist",
+        11
+      ],
+      [
+        "-- L wrist",
+        11
+      ],
+      [
+        "-- L Elbow",
+        10
+      ],
+      [
+        "-- L bicep twist",
+        10
+      ],
+      [
+        "-- L shoulder outside",
+        9
+      ],
+      [
+        "-- L Shoulder inside",
+        9
+      ],
+      [
+        "Bip01 R Clavicle",
+        6
+      ],
+      [
+        "Bip01 R UpperArm",
+        24
+      ],
+      [
+        "Bip01 R Forearm",
+        25
+      ],
+      [
+        "Bip01 R Hand",
+        26
+      ],
+      [
+        "Bip01 R Finger0",
+        27
+      ],
+      [
+        "Bip01 R Finger01",
+        28
+      ],
+      [
+        "Bip01 R Finger1",
+        27
+      ],
+      [
+        "Bip01 R Finger11",
+        30
+      ],
+      [
+        "-- R knuckle",
+        30
+      ],
+      [
+        "-- R wrist",
+        26
+      ],
+      [
+        "-- R forearm twist",
+        26
+      ],
+      [
+        "-- R Elbow",
+        25
+      ],
+      [
+        "-- R bicep twist",
+        25
+      ],
+      [
+        "-- R Shoulder inside",
+        24
+      ],
+      [
+        "-- R shoulder outside",
+        24
+      ],
+      [
+        "-- Neck smooth",
+        5
+      ],
+      [
+        "-- R Butt",
+        1
+      ],
+      [
+        "-- L butt",
+        1
+      ],
+      [
+        "Bip01 L Thigh",
+        1
+      ],
+      [
+        "Bip01 L Calf",
+        42
+      ],
+      [
+        "Bip01 L Foot",
+        43
+      ],
+      [
+        "Bip01 L Toe0",
+        44
+      ],
+      [
+        "-- L ankle",
+        43
+      ],
+      [
+        "-- L Knee",
+        42
+      ],
+      [
+        "Bip01 R Thigh",
+        1
+      ],
+      [
+        "Bip01 R Calf",
+        48
+      ],
+      [
+        "Bip01 R Foot",
+        49
+      ],
+      [
+        "Bip01 R Toe0",
+        50
+      ],
+      [
+        "-- R Ankle",
+        49
+      ],
+      [
+        "-- R Knee",
+        48
+      ],
+      [
+        "Bomb",
+        4
+      ]
+    ],
+    "sequences": [
+      [
+        "dummy",
+        24.0,
+        61,
+        true
+      ],
+      [
+        "idle1",
+        15.0,
+        61,
+        true
+      ],
+      [
+        "crouch_idle",
+        10.0,
+        31,
+        true
+      ],
+      [
+        "walk",
+        30.0,
+        33,
+        true
+      ],
+      [
+        "run",
+        60.0,
+        37,
+        true
+      ],
+      [
+        "crouchrun",
+        30.0,
+        31,
+        true
+      ],
+      [
+        "jump",
+        36.0,
+        61,
+        false
+      ],
+      [
+        "longjump",
+        36.0,
+        61,
+        false
+      ],
+      [
+        "swim",
+        30.0,
+        51,
+        true
+      ],
+      [
+        "treadwater",
+        24.0,
+        61,
+        true
+      ],
+      [
+        "crouch_aim_carbine",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_carbine",
+        15.0,
+        5,
+        false
+      ],
+      [
+        "crouch_reload_carbine",
+        30.0,
+        61,
+        false
+      ],
+      [
+        "ref_aim_carbine",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_carbine",
+        15.0,
+        5,
+        false
+      ],
+      [
+        "ref_reload_carbine",
+        30.0,
+        61,
+        false
+      ],
+      [
+        "crouch_aim_onehanded",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_onehanded",
+        15.0,
+        7,
+        false
+      ],
+      [
+        "crouch_reload_onehanded",
+        30.0,
+        61,
+        false
+      ],
+      [
+        "ref_aim_onehanded",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_onehanded",
+        15.0,
+        7,
+        false
+      ],
+      [
+        "ref_reload_onehanded",
+        30.0,
+        61,
+        false
+      ],
+      [
+        "crouch_aim_dualpistols",
+        10.0,
+        31,
+        true
+      ],
+      [
+        "crouch_shoot_dualpistols",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "crouch_shoot2_dualpistols",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "crouch_reload_dualpistols",
+        30.0,
+        71,
+        false
+      ],
+      [
+        "ref_aim_dualpistols",
+        10.0,
+        31,
+        true
+      ],
+      [
+        "ref_shoot_dualpistols",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "ref_shoot2_dualpistols",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "ref_reload_dualpistols",
+        30.0,
+        71,
+        false
+      ],
+      [
+        "crouch_aim_rifle",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_rifle",
+        20.0,
+        6,
+        false
+      ],
+      [
+        "crouch_reload_rifle",
+        30.0,
+        91,
+        false
+      ],
+      [
+        "ref_aim_rifle",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_rifle",
+        20.0,
+        6,
+        false
+      ],
+      [
+        "ref_reload_rifle",
+        30.0,
+        91,
+        false
+      ],
+      [
+        "crouch_aim_mp5",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_mp5",
+        15.0,
+        5,
+        false
+      ],
+      [
+        "crouch_reload_mp5",
+        30.0,
+        46,
+        false
+      ],
+      [
+        "ref_aim_mp5",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_mp5",
+        15.0,
+        5,
+        false
+      ],
+      [
+        "ref_reload_mp5",
+        30.0,
+        46,
+        false
+      ],
+      [
+        "crouch_aim_shotgun",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_shotgun",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "crouch_reload_shotgun",
+        30.0,
+        76,
+        false
+      ],
+      [
+        "ref_aim_shotgun",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_shotgun",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "ref_reload_shotgun",
+        30.0,
+        76,
+        false
+      ],
+      [
+        "crouch_aim_m249",
+        10.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_m249",
+        30.0,
+        6,
+        true
+      ],
+      [
+        "crouch_reload_m249",
+        30.0,
+        71,
+        false
+      ],
+      [
+        "ref_aim_m249",
+        10.0,
+        11,
+        true
+      ],
+      [
+        "ref_shoot_m249",
+        30.0,
+        6,
+        true
+      ],
+      [
+        "ref_reload_m249",
+        30.0,
+        71,
+        false
+      ],
+      [
+        "I_am_a_stupid_placeholder",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "so_am_I",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "ref_aim_grenade",
+        20.0,
+        31,
+        true
+      ],
+      [
+        "ref_shoot_grenade",
+        45.0,
+        31,
+        false
+      ],
+      [
+        "crouch_aim_grenade",
+        20.0,
+        31,
+        true
+      ],
+      [
+        "crouch_shoot_grenade",
+        45.0,
+        31,
+        false
+      ],
+      [
+        "crouch_aim_c4",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_c4",
+        30.0,
+        121,
+        false
+      ],
+      [
+        "ref_aim_c4",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_c4",
+        30.0,
+        151,
+        false
+      ],
+      [
+        "ref_reload_c4",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "crouch_aim_dualpistols",
+        10.0,
+        31,
+        true
+      ],
+      [
+        "crouch_shoot_dualpistols",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "crouch_shoot2_dualpistols",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "crouch_reload_dualpistols",
+        30.0,
+        71,
+        false
+      ],
+      [
+        "ref_aim_dualpistols",
+        10.0,
+        31,
+        true
+      ],
+      [
+        "ref_shoot_dualpistols",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "ref_shoot2_dualpistols",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "ref_reload_dualpistols",
+        30.0,
+        71,
+        false
+      ],
+      [
+        "crouch_aim_knife",
+        12.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_knife",
+        30.0,
+        41,
+        false
+      ],
+      [
+        "ref_aim_knife",
+        12.0,
+        31,
+        true
+      ],
+      [
+        "ref_shoot_knife",
+        30.0,
+        41,
+        true
+      ],
+      [
+        "crouch_aim_ak47",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_ak47",
+        30.0,
+        5,
+        false
+      ],
+      [
+        "crouch_reload_ak47",
+        30.0,
+        91,
+        false
+      ],
+      [
+        "ref_aim_ak47",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_ak47",
+        30.0,
+        6,
+        false
+      ],
+      [
+        "ref_reload_ak47",
+        30.0,
+        91,
+        false
+      ],
+      [
+        "crouch_aim_shieldgren",
+        20.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_shieldgren",
+        45.0,
+        31,
+        false
+      ],
+      [
+        "ref_aim_shieldgren",
+        20.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_shieldgren",
+        45.0,
+        31,
+        false
+      ],
+      [
+        "crouch_aim_shieldknife",
+        12.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_shieldknife",
+        30.0,
+        41,
+        false
+      ],
+      [
+        "ref_aim_shieldknife",
+        12.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_shieldknife",
+        30.0,
+        41,
+        true
+      ],
+      [
+        "crouch_aim_shieldgun",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_shieldgun",
+        30.0,
+        16,
+        false
+      ],
+      [
+        "crouch_reload_shieldgun",
+        30.0,
+        61,
+        false
+      ],
+      [
+        "ref_aim_shieldgun",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_shieldgun",
+        30.0,
+        16,
+        false
+      ],
+      [
+        "ref_reload_shieldgun",
+        30.0,
+        61,
+        false
+      ],
+      [
+        "crouch_aim_shielded",
+        20.0,
+        2,
+        true
+      ],
+      [
+        "ref_aim_shielded",
+        20.0,
+        2,
+        true
+      ],
+      [
+        "gut_flinch",
+        30.0,
+        2,
+        false
+      ],
+      [
+        "head_flinch",
+        30.0,
+        2,
+        false
+      ],
+      [
+        "death1",
+        30.0,
+        36,
+        false
+      ],
+      [
+        "death2",
+        30.0,
+        41,
+        false
+      ],
+      [
+        "death3",
+        30.0,
+        106,
+        false
+      ],
+      [
+        "head",
+        30.0,
+        56,
+        false
+      ],
+      [
+        "gutshot",
+        30.0,
+        54,
+        false
+      ],
+      [
+        "left",
+        30.0,
+        66,
+        false
+      ],
+      [
+        "back",
+        30.0,
+        56,
+        false
+      ],
+      [
+        "right",
+        30.0,
+        66,
+        false
+      ],
+      [
+        "forward",
+        30.0,
+        37,
+        false
+      ],
+      [
+        "crouch_die",
+        30.0,
+        31,
+        false
+      ]
+    ],
+    "hitboxes": [
+      {
+        "bone": 1,
+        "group": 3,
+        "min": [
+          -4.690000057220459,
+          -4.440000057220459,
+          -6.75
+        ],
+        "max": [
+          4.0,
+          5.559999942779541,
+          6.75
+        ]
+      },
+      {
+        "bone": 42,
+        "group": 6,
+        "min": [
+          2.6600000858306885,
+          -3.690000057220459,
+          -3.0899999141693115
+        ],
+        "max": [
+          18.15999984741211,
+          4.880000114440918,
+          3.309999942779541
+        ]
+      },
+      {
+        "bone": 43,
+        "group": 6,
+        "min": [
+          0.3799999952316284,
+          -3.9700000286102295,
+          -2.8399999141693115
+        ],
+        "max": [
+          17.600000381469727,
+          4.0,
+          2.940000057220459
+        ]
+      },
+      {
+        "bone": 44,
+        "group": 6,
+        "min": [
+          0.8500000238418579,
+          -3.240000009536743,
+          -2.640000104904175
+        ],
+        "max": [
+          5.730000019073486,
+          8.529999732971191,
+          3.1700000762939453
+        ]
+      },
+      {
+        "bone": 48,
+        "group": 7,
+        "min": [
+          2.4700000286102295,
+          -3.690000057220459,
+          -3.1600000858306885
+        ],
+        "max": [
+          18.1299991607666,
+          4.880000114440918,
+          3.380000114440918
+        ]
+      },
+      {
+        "bone": 49,
+        "group": 7,
+        "min": [
+          0.3100000023841858,
+          -3.9700000286102295,
+          -2.8399999141693115
+        ],
+        "max": [
+          17.600000381469727,
+          3.940000057220459,
+          2.9700000286102295
+        ]
+      },
+      {
+        "bone": 50,
+        "group": 7,
+        "min": [
+          0.8500000238418579,
+          -3.240000009536743,
+          -2.640000104904175
+        ],
+        "max": [
+          5.730000019073486,
+          8.529999732971191,
+          3.1700000762939453
+        ]
+      },
+      {
+        "bone": 3,
+        "group": 3,
+        "min": [
+          -3.25,
+          -5.5,
+          -5.5
+        ],
+        "max": [
+          4.829999923706055,
+          5.5,
+          5.5
+        ]
+      },
+      {
+        "bone": 4,
+        "group": 2,
+        "min": [
+          -0.05999999865889549,
+          -5.53000020980835,
+          -7.590000152587891
+        ],
+        "max": [
+          8.0,
+          7.0,
+          7.590000152587891
+        ]
+      },
+      {
+        "bone": 5,
+        "group": 2,
+        "min": [
+          -2.25,
+          -6.809999942779541,
+          -6.309999942779541
+        ],
+        "max": [
+          6.5,
+          5.090000152587891,
+          6.309999942779541
+        ]
+      },
+      {
+        "bone": 6,
+        "group": 2,
+        "min": [
+          -3.109999895095825,
+          -1.5,
+          -3.0
+        ],
+        "max": [
+          2.049999952316284,
+          3.5,
+          3.0
+        ]
+      },
+      {
+        "bone": 7,
+        "group": 1,
+        "min": [
+          -0.33000001311302185,
+          -4.5,
+          -2.5
+        ],
+        "max": [
+          8.0,
+          4.5,
+          2.5
+        ]
+      },
+      {
+        "bone": 9,
+        "group": 4,
+        "min": [
+          0.9399999976158142,
+          -2.880000114440918,
+          -4.130000114440918
+        ],
+        "max": [
+          5.440000057220459,
+          4.28000020980835,
+          3.5
+        ]
+      },
+      {
+        "bone": 10,
+        "group": 4,
+        "min": [
+          -2.1600000858306885,
+          -2.3399999141693115,
+          -2.559999942779541
+        ],
+        "max": [
+          11.5600004196167,
+          3.4100000858306885,
+          2.380000114440918
+        ]
+      },
+      {
+        "bone": 11,
+        "group": 4,
+        "min": [
+          0.5899999737739563,
+          -1.809999942779541,
+          -2.190000057220459
+        ],
+        "max": [
+          10.75,
+          2.8399999141693115,
+          2.4100000858306885
+        ]
+      },
+      {
+        "bone": 12,
+        "group": 4,
+        "min": [
+          -0.13220100104808807,
+          -1.9030200242996216,
+          -2.238529920578003
+        ],
+        "max": [
+          4.8628997802734375,
+          2.078239917755127,
+          2.3697900772094727
+        ]
+      },
+      {
+        "bone": 24,
+        "group": 5,
+        "min": [
+          1.3799999952316284,
+          -2.8399999141693115,
+          -3.559999942779541
+        ],
+        "max": [
+          5.690000057220459,
+          4.309999942779541,
+          4.309999942779541
+        ]
+      },
+      {
+        "bone": 25,
+        "group": 5,
+        "min": [
+          -1.8799999952316284,
+          -2.4700000286102295,
+          -2.1600000858306885
+        ],
+        "max": [
+          11.8100004196167,
+          3.2799999713897705,
+          2.809999942779541
+        ]
+      },
+      {
+        "bone": 26,
+        "group": 5,
+        "min": [
+          0.4399999976158142,
+          -1.9700000286102295,
+          -2.3399999141693115
+        ],
+        "max": [
+          10.59000015258789,
+          2.7200000286102295,
+          2.2200000286102295
+        ]
+      },
+      {
+        "bone": 27,
+        "group": 5,
+        "min": [
+          -0.13220100104808807,
+          -1.9030200242996216,
+          -2.238529920578003
+        ],
+        "max": [
+          4.8628997802734375,
+          2.078239917755127,
+          2.3697900772094727
+        ]
+      },
+      {
+        "bone": 12,
+        "group": 8,
+        "min": [
+          -16.100000381469727,
+          -6.5,
+          -19.0
+        ],
+        "max": [
+          10.600000381469727,
+          1.5,
+          33.0
+        ]
+      }
+    ],
+    "bodyparts": [
+      {
+        "name": "studio",
+        "model_count": 1,
+        "base": 1,
+        "models": [
+          {
+            "name": "arctic",
+            "type": 0,
+            "radius": 0.0,
+            "mesh_count": 1,
+            "mesh_offset": 2105620,
+            "vertex_count": 372,
+            "vertex_bone_offset": 2095220,
+            "vertex_offset": 2096020,
+            "normal_count": 428,
+            "normal_bone_offset": 2095592,
+            "normal_offset": 2100484,
+            "group_count": 0,
+            "group_offset": 0
+          }
+        ]
+      },
+      {
+        "name": "backpack",
+        "model_count": 2,
+        "base": 1,
+        "models": [
+          {
+            "name": "blank",
+            "type": 0,
+            "radius": 0.0,
+            "mesh_count": 0,
+            "mesh_offset": 2114472,
+            "vertex_count": 0,
+            "vertex_bone_offset": 2114472,
+            "vertex_offset": 2114472,
+            "normal_count": 0,
+            "normal_bone_offset": 2114472,
+            "normal_offset": 2114472,
+            "group_count": 0,
+            "group_offset": 0
+          },
+          {
+            "name": "..\\packs\\bomb",
+            "type": 0,
+            "radius": 0.0,
+            "mesh_count": 1,
+            "mesh_offset": 2115124,
+            "vertex_count": 24,
+            "vertex_bone_offset": 2114472,
+            "vertex_offset": 2114524,
+            "normal_count": 26,
+            "normal_bone_offset": 2114496,
+            "normal_offset": 2114812,
+            "group_count": 0,
+            "group_offset": 0
+          }
+        ]
+      }
+    ],
+    "attachments": [
+      {
+        "index": 0,
+        "name": "",
+        "type": 0,
+        "bone": 27,
+        "origin": [
+          10.854999542236328,
+          -0.41671499609947205,
+          1.8706799745559692
+        ],
+        "vectors": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "index": 1,
+        "name": "",
+        "type": 0,
+        "bone": 12,
+        "origin": [
+          10.854999542236328,
+          -0.41671499609947205,
+          1.8706799745559692
+        ],
+        "vectors": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "textures": [
+      {
+        "index": 0,
+        "record_offset": 2115716,
+        "name": "ARTIC_Working1.BMP",
+        "flags": 0,
+        "flag_names": [],
+        "width": 512,
+        "height": 512,
+        "pixel_offset": 2115880
+      },
+      {
+        "index": 1,
+        "record_offset": 2115796,
+        "name": "Backpack1.BMP",
+        "flags": 0,
+        "flag_names": [],
+        "width": 128,
+        "height": 128,
+        "pixel_offset": 2378792
+      }
+    ],
+    "stats": {
+      "vertices": null,
+      "normals": null,
+      "triangles": null,
+      "numbones": null,
+      "numseq": null,
+      "numhitboxes": null,
+      "numtextures": null,
+      "size": 2395944,
+      "mdl_version": null
+    }
+  },
+  "candidate": {
+    "top_keys": [
+      "attachments",
+      "bodyparts",
+      "bones",
+      "controllers",
+      "header",
+      "hitboxes",
+      "magic",
+      "path",
+      "sequences",
+      "size",
+      "skin_families",
+      "textures",
+      "version"
+    ],
+    "bones": [
+      [
+        "Bip01",
+        -1
+      ],
+      [
+        "Bip01 Pelvis",
+        0
+      ],
+      [
+        "Bip01 Spine",
+        1
+      ],
+      [
+        "Bip01 Spine1",
+        2
+      ],
+      [
+        "Bip01 Spine2",
+        3
+      ],
+      [
+        "Bip01 Spine3",
+        4
+      ],
+      [
+        "Bip01 Neck",
+        5
+      ],
+      [
+        "Bip01 Head",
+        6
+      ],
+      [
+        "Bone01",
+        7
+      ],
+      [
+        "Bip01 L Clavicle",
+        6
+      ],
+      [
+        "Bip01 L UpperArm",
+        9
+      ],
+      [
+        "Bip01 L Forearm",
+        10
+      ],
+      [
+        "Bip01 L Hand",
+        11
+      ],
+      [
+        "Bip01 L Finger0",
+        12
+      ],
+      [
+        "Bip01 L Finger01",
+        13
+      ],
+      [
+        "Bip01 L Finger1",
+        12
+      ],
+      [
+        "Bip01 L Finger11",
+        15
+      ],
+      [
+        "-- L knuckle",
+        15
+      ],
+      [
+        "-- L Forearm twist",
+        11
+      ],
+      [
+        "-- L wrist",
+        11
+      ],
+      [
+        "-- L Elbow",
+        10
+      ],
+      [
+        "-- L bicep twist",
+        10
+      ],
+      [
+        "-- L shoulder outside",
+        9
+      ],
+      [
+        "-- L Shoulder inside",
+        9
+      ],
+      [
+        "Bip01 R Clavicle",
+        6
+      ],
+      [
+        "Bip01 R UpperArm",
+        24
+      ],
+      [
+        "Bip01 R Forearm",
+        25
+      ],
+      [
+        "Bip01 R Hand",
+        26
+      ],
+      [
+        "Bip01 R Finger0",
+        27
+      ],
+      [
+        "Bip01 R Finger01",
+        28
+      ],
+      [
+        "Bip01 R Finger1",
+        27
+      ],
+      [
+        "Bip01 R Finger11",
+        30
+      ],
+      [
+        "-- R knuckle",
+        30
+      ],
+      [
+        "-- R wrist",
+        26
+      ],
+      [
+        "-- R forearm twist",
+        26
+      ],
+      [
+        "-- R Elbow",
+        25
+      ],
+      [
+        "-- R bicep twist",
+        25
+      ],
+      [
+        "-- R Shoulder inside",
+        24
+      ],
+      [
+        "-- R shoulder outside",
+        24
+      ],
+      [
+        "-- Neck smooth",
+        5
+      ],
+      [
+        "-- R Butt",
+        1
+      ],
+      [
+        "-- L butt",
+        1
+      ],
+      [
+        "Bip01 L Thigh",
+        1
+      ],
+      [
+        "Bip01 L Calf",
+        42
+      ],
+      [
+        "Bip01 L Foot",
+        43
+      ],
+      [
+        "Bip01 L Toe0",
+        44
+      ],
+      [
+        "-- L ankle",
+        43
+      ],
+      [
+        "-- L Knee",
+        42
+      ],
+      [
+        "Bip01 R Thigh",
+        1
+      ],
+      [
+        "Bip01 R Calf",
+        48
+      ],
+      [
+        "Bip01 R Foot",
+        49
+      ],
+      [
+        "Bip01 R Toe0",
+        50
+      ],
+      [
+        "-- R Ankle",
+        49
+      ],
+      [
+        "-- R Knee",
+        48
+      ],
+      [
+        "Bomb",
+        4
+      ]
+    ],
+    "sequences": [
+      [
+        "dummy",
+        24.0,
+        61,
+        true
+      ],
+      [
+        "idle1",
+        15.0,
+        61,
+        true
+      ],
+      [
+        "crouch_idle",
+        10.0,
+        31,
+        true
+      ],
+      [
+        "walk",
+        30.0,
+        33,
+        true
+      ],
+      [
+        "run",
+        60.0,
+        37,
+        true
+      ],
+      [
+        "crouchrun",
+        30.0,
+        31,
+        true
+      ],
+      [
+        "jump",
+        36.0,
+        61,
+        false
+      ],
+      [
+        "longjump",
+        36.0,
+        61,
+        false
+      ],
+      [
+        "swim",
+        30.0,
+        51,
+        true
+      ],
+      [
+        "treadwater",
+        24.0,
+        61,
+        true
+      ],
+      [
+        "crouch_aim_carbine",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_carbine",
+        15.0,
+        5,
+        false
+      ],
+      [
+        "crouch_reload_carbine",
+        30.0,
+        61,
+        false
+      ],
+      [
+        "ref_aim_carbine",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_carbine",
+        15.0,
+        5,
+        false
+      ],
+      [
+        "ref_reload_carbine",
+        30.0,
+        61,
+        false
+      ],
+      [
+        "crouch_aim_onehanded",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_onehanded",
+        15.0,
+        7,
+        false
+      ],
+      [
+        "crouch_reload_onehanded",
+        30.0,
+        61,
+        false
+      ],
+      [
+        "ref_aim_onehanded",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_onehanded",
+        15.0,
+        7,
+        false
+      ],
+      [
+        "ref_reload_onehanded",
+        30.0,
+        61,
+        false
+      ],
+      [
+        "crouch_aim_dualpistols",
+        10.0,
+        31,
+        true
+      ],
+      [
+        "crouch_shoot_dualpistols",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "crouch_shoot2_dualpistols",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "crouch_reload_dualpistols",
+        30.0,
+        71,
+        false
+      ],
+      [
+        "ref_aim_dualpistols",
+        10.0,
+        31,
+        true
+      ],
+      [
+        "ref_shoot_dualpistols",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "ref_shoot2_dualpistols",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "ref_reload_dualpistols",
+        30.0,
+        71,
+        false
+      ],
+      [
+        "crouch_aim_rifle",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_rifle",
+        20.0,
+        6,
+        false
+      ],
+      [
+        "crouch_reload_rifle",
+        30.0,
+        91,
+        false
+      ],
+      [
+        "ref_aim_rifle",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_rifle",
+        20.0,
+        6,
+        false
+      ],
+      [
+        "ref_reload_rifle",
+        30.0,
+        91,
+        false
+      ],
+      [
+        "crouch_aim_mp5",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_mp5",
+        15.0,
+        5,
+        false
+      ],
+      [
+        "crouch_reload_mp5",
+        30.0,
+        46,
+        false
+      ],
+      [
+        "ref_aim_mp5",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_mp5",
+        15.0,
+        5,
+        false
+      ],
+      [
+        "ref_reload_mp5",
+        30.0,
+        46,
+        false
+      ],
+      [
+        "crouch_aim_shotgun",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_shotgun",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "crouch_reload_shotgun",
+        30.0,
+        76,
+        false
+      ],
+      [
+        "ref_aim_shotgun",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_shotgun",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "ref_reload_shotgun",
+        30.0,
+        76,
+        false
+      ],
+      [
+        "crouch_aim_m249",
+        10.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_m249",
+        30.0,
+        6,
+        true
+      ],
+      [
+        "crouch_reload_m249",
+        30.0,
+        71,
+        false
+      ],
+      [
+        "ref_aim_m249",
+        10.0,
+        11,
+        true
+      ],
+      [
+        "ref_shoot_m249",
+        30.0,
+        6,
+        true
+      ],
+      [
+        "ref_reload_m249",
+        30.0,
+        71,
+        false
+      ],
+      [
+        "I_am_a_stupid_placeholder",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "so_am_I",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "ref_aim_grenade",
+        20.0,
+        31,
+        true
+      ],
+      [
+        "ref_shoot_grenade",
+        45.0,
+        31,
+        false
+      ],
+      [
+        "crouch_aim_grenade",
+        20.0,
+        31,
+        true
+      ],
+      [
+        "crouch_shoot_grenade",
+        45.0,
+        31,
+        false
+      ],
+      [
+        "crouch_aim_c4",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_c4",
+        30.0,
+        121,
+        false
+      ],
+      [
+        "ref_aim_c4",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_c4",
+        30.0,
+        151,
+        false
+      ],
+      [
+        "ref_reload_c4",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "crouch_aim_dualpistols",
+        10.0,
+        31,
+        true
+      ],
+      [
+        "crouch_shoot_dualpistols",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "crouch_shoot2_dualpistols",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "crouch_reload_dualpistols",
+        30.0,
+        71,
+        false
+      ],
+      [
+        "ref_aim_dualpistols",
+        10.0,
+        31,
+        true
+      ],
+      [
+        "ref_shoot_dualpistols",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "ref_shoot2_dualpistols",
+        30.0,
+        31,
+        false
+      ],
+      [
+        "ref_reload_dualpistols",
+        30.0,
+        71,
+        false
+      ],
+      [
+        "crouch_aim_knife",
+        12.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_knife",
+        30.0,
+        41,
+        false
+      ],
+      [
+        "ref_aim_knife",
+        12.0,
+        31,
+        true
+      ],
+      [
+        "ref_shoot_knife",
+        30.0,
+        41,
+        true
+      ],
+      [
+        "crouch_aim_ak47",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_ak47",
+        30.0,
+        5,
+        false
+      ],
+      [
+        "crouch_reload_ak47",
+        30.0,
+        91,
+        false
+      ],
+      [
+        "ref_aim_ak47",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_ak47",
+        30.0,
+        6,
+        false
+      ],
+      [
+        "ref_reload_ak47",
+        30.0,
+        91,
+        false
+      ],
+      [
+        "crouch_aim_shieldgren",
+        20.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_shieldgren",
+        45.0,
+        31,
+        false
+      ],
+      [
+        "ref_aim_shieldgren",
+        20.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_shieldgren",
+        45.0,
+        31,
+        false
+      ],
+      [
+        "crouch_aim_shieldknife",
+        12.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_shieldknife",
+        30.0,
+        41,
+        false
+      ],
+      [
+        "ref_aim_shieldknife",
+        12.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_shieldknife",
+        30.0,
+        41,
+        true
+      ],
+      [
+        "crouch_aim_shieldgun",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "crouch_shoot_shieldgun",
+        30.0,
+        16,
+        false
+      ],
+      [
+        "crouch_reload_shieldgun",
+        30.0,
+        61,
+        false
+      ],
+      [
+        "ref_aim_shieldgun",
+        30.0,
+        2,
+        true
+      ],
+      [
+        "ref_shoot_shieldgun",
+        30.0,
+        16,
+        false
+      ],
+      [
+        "ref_reload_shieldgun",
+        30.0,
+        61,
+        false
+      ],
+      [
+        "crouch_aim_shielded",
+        20.0,
+        2,
+        true
+      ],
+      [
+        "ref_aim_shielded",
+        20.0,
+        2,
+        true
+      ],
+      [
+        "gut_flinch",
+        30.0,
+        2,
+        false
+      ],
+      [
+        "head_flinch",
+        30.0,
+        2,
+        false
+      ],
+      [
+        "death1",
+        30.0,
+        36,
+        false
+      ],
+      [
+        "death2",
+        30.0,
+        41,
+        false
+      ],
+      [
+        "death3",
+        30.0,
+        106,
+        false
+      ],
+      [
+        "head",
+        30.0,
+        56,
+        false
+      ],
+      [
+        "gutshot",
+        30.0,
+        54,
+        false
+      ],
+      [
+        "left",
+        30.0,
+        66,
+        false
+      ],
+      [
+        "back",
+        30.0,
+        56,
+        false
+      ],
+      [
+        "right",
+        30.0,
+        66,
+        false
+      ],
+      [
+        "forward",
+        30.0,
+        37,
+        false
+      ],
+      [
+        "crouch_die",
+        30.0,
+        31,
+        false
+      ]
+    ],
+    "hitboxes": [
+      {
+        "bone": 1,
+        "group": 3,
+        "min": [
+          -4.690000057220459,
+          -4.440000057220459,
+          -6.75
+        ],
+        "max": [
+          4.0,
+          5.559999942779541,
+          6.75
+        ]
+      },
+      {
+        "bone": 42,
+        "group": 6,
+        "min": [
+          2.6600000858306885,
+          -3.690000057220459,
+          -3.0899999141693115
+        ],
+        "max": [
+          18.15999984741211,
+          4.880000114440918,
+          3.309999942779541
+        ]
+      },
+      {
+        "bone": 43,
+        "group": 6,
+        "min": [
+          0.3799999952316284,
+          -3.9700000286102295,
+          -2.8399999141693115
+        ],
+        "max": [
+          17.600000381469727,
+          4.0,
+          2.940000057220459
+        ]
+      },
+      {
+        "bone": 44,
+        "group": 6,
+        "min": [
+          0.8500000238418579,
+          -3.240000009536743,
+          -2.640000104904175
+        ],
+        "max": [
+          5.730000019073486,
+          8.529999732971191,
+          3.1700000762939453
+        ]
+      },
+      {
+        "bone": 48,
+        "group": 7,
+        "min": [
+          2.4700000286102295,
+          -3.690000057220459,
+          -3.1600000858306885
+        ],
+        "max": [
+          18.1299991607666,
+          4.880000114440918,
+          3.380000114440918
+        ]
+      },
+      {
+        "bone": 49,
+        "group": 7,
+        "min": [
+          0.3100000023841858,
+          -3.9700000286102295,
+          -2.8399999141693115
+        ],
+        "max": [
+          17.600000381469727,
+          3.940000057220459,
+          2.9700000286102295
+        ]
+      },
+      {
+        "bone": 50,
+        "group": 7,
+        "min": [
+          0.8500000238418579,
+          -3.240000009536743,
+          -2.640000104904175
+        ],
+        "max": [
+          5.730000019073486,
+          8.529999732971191,
+          3.1700000762939453
+        ]
+      },
+      {
+        "bone": 3,
+        "group": 3,
+        "min": [
+          -3.25,
+          -5.5,
+          -5.5
+        ],
+        "max": [
+          4.829999923706055,
+          5.5,
+          5.5
+        ]
+      },
+      {
+        "bone": 4,
+        "group": 2,
+        "min": [
+          -0.05999999865889549,
+          -5.53000020980835,
+          -7.590000152587891
+        ],
+        "max": [
+          8.0,
+          7.0,
+          7.590000152587891
+        ]
+      },
+      {
+        "bone": 5,
+        "group": 2,
+        "min": [
+          -2.25,
+          -6.809999942779541,
+          -6.309999942779541
+        ],
+        "max": [
+          6.5,
+          5.090000152587891,
+          6.309999942779541
+        ]
+      },
+      {
+        "bone": 6,
+        "group": 2,
+        "min": [
+          -3.109999895095825,
+          -1.5,
+          -3.0
+        ],
+        "max": [
+          2.049999952316284,
+          3.5,
+          3.0
+        ]
+      },
+      {
+        "bone": 7,
+        "group": 1,
+        "min": [
+          -0.33000001311302185,
+          -4.5,
+          -2.5
+        ],
+        "max": [
+          8.0,
+          4.5,
+          2.5
+        ]
+      },
+      {
+        "bone": 9,
+        "group": 4,
+        "min": [
+          0.9399999976158142,
+          -2.880000114440918,
+          -4.130000114440918
+        ],
+        "max": [
+          5.440000057220459,
+          4.28000020980835,
+          3.5
+        ]
+      },
+      {
+        "bone": 10,
+        "group": 4,
+        "min": [
+          -2.1600000858306885,
+          -2.3399999141693115,
+          -2.559999942779541
+        ],
+        "max": [
+          11.5600004196167,
+          3.4100000858306885,
+          2.380000114440918
+        ]
+      },
+      {
+        "bone": 11,
+        "group": 4,
+        "min": [
+          0.5899999737739563,
+          -1.809999942779541,
+          -2.190000057220459
+        ],
+        "max": [
+          10.75,
+          2.8399999141693115,
+          2.4100000858306885
+        ]
+      },
+      {
+        "bone": 12,
+        "group": 4,
+        "min": [
+          -0.13220100104808807,
+          -1.9030200242996216,
+          -2.238529920578003
+        ],
+        "max": [
+          4.8628997802734375,
+          2.078239917755127,
+          2.3697900772094727
+        ]
+      },
+      {
+        "bone": 24,
+        "group": 5,
+        "min": [
+          1.3799999952316284,
+          -2.8399999141693115,
+          -3.559999942779541
+        ],
+        "max": [
+          5.690000057220459,
+          4.309999942779541,
+          4.309999942779541
+        ]
+      },
+      {
+        "bone": 25,
+        "group": 5,
+        "min": [
+          -1.8799999952316284,
+          -2.4700000286102295,
+          -2.1600000858306885
+        ],
+        "max": [
+          11.8100004196167,
+          3.2799999713897705,
+          2.809999942779541
+        ]
+      },
+      {
+        "bone": 26,
+        "group": 5,
+        "min": [
+          0.4399999976158142,
+          -1.9700000286102295,
+          -2.3399999141693115
+        ],
+        "max": [
+          10.59000015258789,
+          2.7200000286102295,
+          2.2200000286102295
+        ]
+      },
+      {
+        "bone": 27,
+        "group": 5,
+        "min": [
+          -0.13220100104808807,
+          -1.9030200242996216,
+          -2.238529920578003
+        ],
+        "max": [
+          4.8628997802734375,
+          2.078239917755127,
+          2.3697900772094727
+        ]
+      },
+      {
+        "bone": 12,
+        "group": 8,
+        "min": [
+          -16.100000381469727,
+          -6.5,
+          -19.0
+        ],
+        "max": [
+          10.600000381469727,
+          1.5,
+          33.0
+        ]
+      }
+    ],
+    "bodyparts": [
+      {
+        "name": "body",
+        "model_count": 1,
+        "base": 1,
+        "models": [
+          {
+            "name": "shrek_body",
+            "type": 0,
+            "radius": 0.0,
+            "mesh_count": 1,
+            "mesh_offset": 2153756,
+            "vertex_count": 1959,
+            "vertex_bone_offset": 2110788,
+            "vertex_offset": 2114096,
+            "normal_count": 1346,
+            "normal_bone_offset": 2112748,
+            "normal_offset": 2137604,
+            "group_count": 0,
+            "group_offset": 0
+          }
+        ]
+      }
+    ],
+    "attachments": [
+      {
+        "index": 0,
+        "name": "",
+        "type": 0,
+        "bone": 27,
+        "origin": [
+          10.854999542236328,
+          -0.41671499609947205,
+          1.8706799745559692
+        ],
+        "vectors": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "index": 1,
+        "name": "",
+        "type": 0,
+        "bone": 12,
+        "origin": [
+          10.854999542236328,
+          -0.41671499609947205,
+          1.8706799745559692
+        ],
+        "vectors": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "textures": [
+      {
+        "index": 0,
+        "record_offset": 2188204,
+        "name": "shrek.bmp",
+        "flags": 0,
+        "flag_names": [],
+        "width": 512,
+        "height": 512,
+        "pixel_offset": 2188288
+      }
+    ],
+    "stats": {
+      "vertices": null,
+      "normals": null,
+      "triangles": null,
+      "numbones": null,
+      "numseq": null,
+      "numhitboxes": null,
+      "numtextures": null,
+      "size": 2451200,
+      "mdl_version": null
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "status": "pass",
+  "role": "player",
+  "issues": [],
+  "differences": [
+    {
+      "sequence": "walk",
+      "field": "linear_movement",
+      "baseline": [
+        64.0,
+        0.0,
+        0.0
+      ],
+      "candidate": [
+        62.06060791015625,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "sequence": "run",
+      "field": "linear_movement",
+      "baseline": [
+        150.00001525878906,
+        0.0,
+        0.0
+      ],
+      "candidate": [
+        145.94595336914062,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "sequence": "crouchrun",
+      "field": "linear_movement",
+      "baseline": [
+        75.0,
+        0.0,
+        0.0
+      ],
+      "candidate": [
+        72.58064270019531,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "facts": {
+    "baseline_sequences": 111,
+    "candidate_sequences": 111,
+    "baseline_bones": 55,
+    "candidate_bones": 55,
+    "appended_sequences": []
+  },
+  "candidate_mdl": "C:\\AI\\goldsrc\\shrek_player\\work\\final\\build\\player\\shrek\\shrek.mdl",
+  "baseline_mdl": "E:\\goldsrc\\decomp_models\\arctic.mdl"
+}
